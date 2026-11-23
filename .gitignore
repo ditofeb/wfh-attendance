@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files hold secrets: commit .env.example instead
+.env
+.env.*
+!.env.example
+
+# Uploaded attendance photos
+backend/uploads/
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
